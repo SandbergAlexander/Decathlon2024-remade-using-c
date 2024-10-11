@@ -127,8 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Decathlon2024-remade-using-c.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Decathlon_100_meters.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Decathlon_100_meters.h" />

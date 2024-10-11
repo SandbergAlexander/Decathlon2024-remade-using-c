@@ -2,18 +2,45 @@
 //
 
 #include <iostream>
- 
+#include "raylib.h"
+#include "Decathlon_100_meters.h"
 
 int main()
 {
+    float X = 1;
+    float Y = 1;
+    
+    SetTargetFPS(60);
+    InitWindow(400, 500, "Alexander Sandberg");
+    Sound sound;
+    Texture2D  Spirt = LoadTexture("test.png");
+
+    while (!WindowShouldClose())
+    {
+        BeginDrawing();
+        ClearBackground(DARKGRAY);
+        DrawTexture(Spirt, X, Y,WHITE);
+        DrawRectangle(0, 10, 600, 100, WHITE);
+
+        DrawText(TextFormat("Please enter the competitor's name:" ), 1, 80, 20, BLACK);
+        DrawRectangle(0,400, 400, 400, WHITE);
+        DrawText(TextFormat("Alexander Sandberg:"), 1, 450, 20, BLACK);
+     
+
+
+        EndDrawing();
+     }
+ 
+ 
+
+ 
+    CloseWindow();
     std::string user;
     std::string name;
 
     std::cout << "Please enter the competitor's name:";
-    std::cin >> name;
-    std::cout << "Select discipline.";
-    std::cin >> user;
- 
+     std::cout << "Select discipline.";
+  
     /*
     Select discipline.
 1. Decathlon 100 meters. (Measured in seconds)
@@ -35,7 +62,7 @@ int main()
 17. Heptathlon Javelin Throw.
 
     */
-
+ 
     return 0;
 }
 
