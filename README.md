@@ -1,6 +1,5 @@
 # Decathlon2024-remade-using-c++
-<img src= 'https://github.com/SandbergAlexander/Decathlon2024-remade-using-c/blob/master/test_01.png'/>
-
+![alt text](https://github.com/SandbergAlexander/Decathlon2024-remade-using-c/blob/master/Test_0.png)
 # version 0.0.0
 # todo
 - [ ] gui label 
