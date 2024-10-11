@@ -1,5 +1,5 @@
 # Decathlon2024-remade-using-c
 # todo
-[x] gui
+[ ] gui
 
 # install vcpkg and raylib 
